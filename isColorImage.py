@@ -36,8 +36,8 @@ if __name__ == '__main__':
         if is_color_image(real_path):
             count += 1
             print(pic[:-4])
-            # 删除xml文件
-            # os.remove(xml_path + os.sep + pic[:-4] + '.xml')
+            删除xml文件
+            os.remove(xml_path + os.sep + pic[:-4] + '.xml')
             # 删除图片
             # os.remove(real_path)
     print(count)
